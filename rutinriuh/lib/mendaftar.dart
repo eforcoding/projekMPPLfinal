@@ -77,7 +77,7 @@ class _HalamanMendaftarState extends State<HalamanMendaftar> {
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        'Saya ingin menerima newsletter dan promo.',
+                        '',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       )
                     ],

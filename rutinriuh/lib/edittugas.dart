@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class TambahPage extends StatelessWidget {
+class editPage extends StatelessWidget {
   final TextEditingController statusController = TextEditingController();
   final TextEditingController judulController = TextEditingController();
   final TextEditingController mataKuliahController = TextEditingController();
   final TextEditingController tanggalController = TextEditingController();
   final TextEditingController jamController = TextEditingController();
 
-  TambahPage({Key? key}) : super(key: key);
+  editPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFDBE7C9),
-        title: const Text("Tambah Tugas", textAlign: TextAlign.center),
+        title: const Text("Edit Tugas", textAlign: TextAlign.center),
         centerTitle: true,
       ),
       body: Container(
@@ -65,7 +65,7 @@ class TambahPage extends StatelessWidget {
                         MaterialStateProperty.all(Size(double.infinity, 40)),
                   ),
                   child: Text(
-                    'Tambah +',
+                    'Ubah ',
                     style: TextStyle(color: Colors.white, fontSize: 15),
                   ),
                 ),
